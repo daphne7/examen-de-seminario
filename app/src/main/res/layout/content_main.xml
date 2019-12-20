@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/registrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="138dp"
+            android:layout_marginTop="80dp"
+            android:text="registrar" />
+
+        <Button
+            android:id="@+id/lista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="138dp"
+            android:layout_marginTop="130dp"
+            android:text="listar" />
+
+        <Button
+            android:id="@+id/ver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="138dp"
+            android:layout_marginTop="200dp"
+            android:text="ver" />
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>
